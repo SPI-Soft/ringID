@@ -35,8 +35,8 @@ font = 'arial 18 bold'
 nr_text = Label(top, text='KI-number:', font=font)
 nr_text.grid(row=0, column=0, sticky='w')
 subj_nr = IntVar() # variable to be attached to vp_nr_entry
-subj_nr.set('99') # default value
-subj_nr_entry = Entry(top, width=2, textvariable=subj_nr, font=font)
+subj_nr.set('999') # default value
+subj_nr_entry = Entry(top, width=3, textvariable=subj_nr, font=font)
 subj_nr_entry.grid(row=0, column=1, sticky='w')
 
 age_text = Label(top, text='Vanus:', font=font)
